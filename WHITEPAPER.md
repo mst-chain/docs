@@ -1,12 +1,4 @@
-﻿**MST Blockchain**
-**\
-\
-
-
-
-**White Paper**
-
-**(Version 3.0)**
+﻿**MST Blockchain (Version 3.0)**
 
 Table of Contents
 
@@ -528,6 +520,7 @@ Through the integration of purpose-built protocols such as WASMify for off-chain
 | - |
 
 ##
+
 
 
 
