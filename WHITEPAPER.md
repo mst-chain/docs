@@ -8,41 +8,41 @@
 
 [**3. Problem Statement**](#_pe82p4tefj03)
 
-[3.1 Centralized Control Undermining Public Trust](#_zg4fr6gql1nf)
+  - [3.1 Centralized Control Undermining Public Trust](#_zg4fr6gql1nf)
 
-[3.2 High Operational Costs and Reduced Accessibility](#_oo2guvyhxt06)
+  - [3.2 High Operational Costs and Reduced Accessibility](#_oo2guvyhxt06)
 
-[3.3 Opacity and Lack of Transactional Transparency](#_vgyoft3nfmny)
+  - [3.3 Opacity and Lack of Transactional Transparency](#_vgyoft3nfmny)
 
-[3.4 Limited Data Ownership and User Control](#_84r5t1jt3t06)
+  - [3.4 Limited Data Ownership and User Control](#_84r5t1jt3t06)
 
-[3.5 Complexity in Integration and Poor User Experience](#_b9qu0kxyvxvl)
+  - [3.5 Complexity in Integration and Poor User Experience](#_b9qu0kxyvxvl)
 
 [**4. Solution Overview**](#_lx6745idg8wi)
 
-[4.1 Decentralised Information Sharing](#_vbut73sbq0nz)
+  - [4.1 Decentralised Information Sharing](#_vbut73sbq0nz)
 
-[4.2 Cost Reduction](#_aj4z1pey585b)
+  - [4.2 Cost Reduction](#_aj4z1pey585b)
 
-[4.3 Increased Transparency](#_65txid6w16lp)
+  - [4.3 Increased Transparency](#_65txid6w16lp)
 
-[4.4 User Empowerment](#_l3nggdyztdzk)
+  - [4.4 User Empowerment](#_l3nggdyztdzk)
 
-[4.5 Inclusive and Intuitive Design](#_590cnu696x4p)
+  - [4.5 Inclusive and Intuitive Design](#_590cnu696x4p)
 
 [**5. Technical Architecture**](#_ncugejx1a07e)
 
-[5.1 – Consensus Mechanism: Parlia (Proof of Staked Authority)](#_wzr03qrnkh5x)
+  - [5.1 – Consensus Mechanism: Parlia (Proof of Staked Authority)](#_wzr03qrnkh5x)
 
-[5.2 – System Contract](#_kmtm1v1hwtwm)
+  - [5.2 – System Contract](#_kmtm1v1hwtwm)
 
-[5.3 – Security Features & Governance](#_8hngbu858fo4)
+  - [5.3 – Security Features & Governance](#_8hngbu858fo4)
 
-[5.4 – Independent Blockchain Architecture](#_2sfydaoikr6f)
+  - [5.4 – Independent Blockchain Architecture](#_2sfydaoikr6f)
 
-[5.5 – Ethereum-Compatible Virtual Machine (EVM) Integration](#_nxerqsu5i6ko)
+  - [5.5 – Ethereum-Compatible Virtual Machine (EVM) Integration](#_nxerqsu5i6ko)
 
-[5.6 – Fast Block Time and Near-Instant Finality](#_9v0rhrqflh10)
+  - [5.6 – Fast Block Time and Near-Instant Finality](#_9v0rhrqflh10)
 
 [**6. Proof of Staked Authority (PoSA)**](#_ur61g63mbedb)
 
@@ -54,55 +54,55 @@
 
 [**10. Tokenomics**](#_n5zsbioe19rh)
 
-[10.1 Emission Model and Halving Mechanism](#_bw4m908jyaw0)
+  - [10.1 Emission Model and Halving Mechanism](#_bw4m908jyaw0)
 
-[10.2 Demand-Supply Balancing Strategy](#_uaqto0fffdao)
+  - [10.2 Demand-Supply Balancing Strategy](#_uaqto0fffdao)
 
-[10.3 Distribution](#_r8nduwrwewru)
+  - [10.3 Distribution](#_r8nduwrwewru)
 
 [**11. Reward Distribution**](#_bdnc4xjlyjjg)
 
-[11.1 Validator-Level Allocation](#_h7ylhxyyvk6)
+- [11.1 Validator-Level Allocation](#_h7ylhxyyvk6)
 
-[11.2 Fractional Ownership Reward(MST Model)](#_271gisoy5cvk)
+- [11.2 Fractional Ownership Reward(MST Model)](#_271gisoy5cvk)
 
 [**12. Security and Finality**](#_mm6uwt22zfd4)
 
-[12.1 Validator Trust Assumption](#_6u9365ialvut)
+- [12.1 Validator Trust Assumption](#_6u9365ialvut)
 
-[12.2 Clone Attack Risk Mitigation](#_eut0hie7ovfm)
+- [12.2 Clone Attack Risk Mitigation](#_eut0hie7ovfm)
 
-[12.3 Fast Finality Mechanism](#_gb8xroy6d0om)
+- [12.3 Fast Finality Mechanism](#_gb8xroy6d0om)
 
 [**13. On-Chain Governance Framework**](#_fjhqf32mnh4)
 
-[13.1 Key Features of MST Governance](#_sss94zs7kk7r)
+- [13.1 Key Features of MST Governance](#_sss94zs7kk7r)
 
-[13.2 Governance Flow](#_rlphc61g5kcv)
+- [13.2 Governance Flow](#_rlphc61g5kcv)
 
 [**14. Slashing and Penalties**](#_ht6v617z5q7g)
 
-[14.1 Double Signing](#_3ykl69wnp68t)
+- [14.1 Double Signing](#_3ykl69wnp68t)
 
-[14.2 Malicious Finality Voting](#_eetezxobe33e)
+- [14.2 Malicious Finality Voting](#_eetezxobe33e)
 
-[14.3 Validator Unavailability](#_uvwfc1ga3mpj)
+- [14.3 Validator Unavailability](#_uvwfc1ga3mpj)
 
 [**15. Use Case**](#_qdkgpqk5pag7)
 
-[15.1 Retail Industry Use Cases](#_zhgbh43j6bs4)
+- [15.1 Retail Industry Use Cases](#_zhgbh43j6bs4)
 
-[15.2 Gaming Industry Use Cases](#_8vg8uxu5yptt)
+- [15.2 Gaming Industry Use Cases](#_8vg8uxu5yptt)
 
-[15.3 Enterprise Use Cases](#_l0binaqjpks)
+- [15.3 Enterprise Use Cases](#_l0binaqjpks)
 
 [**16. MST Ecosystem: Scaling Through Purposeful Innovation**](#_cuedto1a599t)
 
-[16.1 Why an Ecosystem Approach?](#_5eb94rm3hp6i)
+- [16.1 Why an Ecosystem Approach?](#_5eb94rm3hp6i)
 
-[16.2 MST Layer 2 and Side Chain Strategy](#_9z3uy96qnx3m)
+- [16.2 MST Layer 2 and Side Chain Strategy](#_9z3uy96qnx3m)
 
-[16.3 Ecosystem Tools and Protocols](#_as75pq1oumj3)
+- [16.3 Ecosystem Tools and Protocols](#_as75pq1oumj3)
 
 [**17. Conclusion**](#_2zotdq1eeymw)
 
