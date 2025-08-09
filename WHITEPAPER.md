@@ -108,7 +108,7 @@
 
 [**LEGAL DISCLAIMER**](#_k3kmi69kgpud)
 ## <a name="_fsfxx4d6zbn3"></a>
-1. ## <a name="_hniaob3nmrqd"></a>Abstract
+## <a name="_hniaob3nmrqd"></a>1. Abstract
 
 The rapid evolution of blockchain technology has initiated a paradigm shift in how data is managed and shared across various sectors. MST Blockchain, a Layer 1 blockchain platform, emerges as a transformative solution by enabling organisations to share information securely and directly without a central authority. MST Blockchain addresses critical challenges related to data privacy, security, and operational efficiency. 
 
@@ -125,7 +125,7 @@ What sets MST Blockchain apart is its strong focus on decentralization and commu
 In conclusion, MST Blockchain represents a comprehensive solution poised to play a pivotal role in transforming how organizations manage and share information. By addressing vital concerns around security, transparency, and user control—and by embracing a decentralized, community-led governance model—MST Blockchain is ready to lead the next phase of blockchain adoption across industries, helping build a more secure, inclusive, and efficient digital economy.
 
 
-1. ## <a name="_dsr6rb2qit71"></a>Introduction
+## <a name="_dsr6rb2qit71"></a>2. Introduction
 Blockchain technology has fundamentally transformed the paradigm of data exchange and value transfer by eliminating centralized intermediaries and introducing a decentralized, trustless framework for information control. However, early-generation Layer 1 blockchains continue to grapple with systemic limitations, including throughput bottlenecks, security vulnerabilities, and limited interoperability—factors that restrict their scalability and mainstream adoption.
 
 MST Blockchain introduces a next-generation Layer 1 protocol engineered to overcome these foundational constraints. Architected with a high-performance consensus mechanism, it delivers exceptional transaction throughput, low latency, and minimal fees without compromising on decentralization or network integrity. The protocol leverages advanced cryptographic primitives and modular design principles, allowing seamless interoperability with heterogeneous systems and secure integration for enterprise applications.
@@ -135,7 +135,7 @@ Built with a foundation rooted in secure elliptic curve cryptography—akin to w
 The MST Blockchain platform is poised with exceptional technical capabilities and a vision to drive transformative innovation across the blockchain ecosystem. Backed by a strong community and strategic partners, it not only enhances our credibility but positions MST Blockchain at the forefront of Web3 advancement—both in India and globally. Its architectural resilience and cryptographic soundness make it a pivotal force in shaping the next phase of secure, scalable, and interoperable blockchain infrastructure.
 
 
-1. ## <a name="_pe82p4tefj03"></a>Problem Statement
+## <a name="_pe82p4tefj03"></a>3. Problem Statement
 **Despite the promise of blockchain technology, many existing platforms face fundamental challenges that restrict their public utility, transparency, and long-term impact:**
 ### <a name="_zg4fr6gql1nf"></a>**3.1 Centralized Control Undermining Public Trust**
 While decentralization is a core principle of blockchain, many systems still depend on centralized infrastructure to store and share sensitive data. This reliance creates significant security vulnerabilities, including susceptibility to breaches, manipulation, and unauthorized access. More critically, it concentrates power in the hands of a few entities, undermining public trust and violating the foundational goal of distributed, trustless networks.
@@ -153,7 +153,7 @@ Most current digital platforms require users to relinquish control over their da
 Blockchain platforms have long struggled with accessibility—both for developers and end users. For developers, the lack of intuitive tools, documentation, and plug-and-play APIs makes it difficult to build or integrate blockchain solutions into existing systems. For users, complex onboarding processes, confusing interfaces, and unfamiliar wallet or key management systems create friction and deter mainstream adoption. These usability challenges stall innovation and prevent blockchain from achieving mass-market relevance.
 
 
-1. ## <a name="_lx6745idg8wi"></a>Solution Overview
+## <a name="_lx6745idg8wi"></a>4. Solution Overview
 - Decentralised Information Sharing
 - Cost Reduction
 - Increased Transparency
@@ -173,7 +173,7 @@ MST Blockchain places control back in the hands of users by integrating decentra
 Recognising that blockchain adoption has long been hindered by complexity, MST Blockchain is explicitly designed to be accessible to everyone, from enterprises to individual users with no technical background. Our ecosystem includes user-friendly tools like the SARAL Protocol, which offers a simplified framework for managing smart contracts, as well as pre-built modules and APIs for seamless integration into existing systems. These tools dramatically reduce the technical barrier to entry and enable faster deployment of decentralised solutions across a wide range of industries.
 
 
-1. ## <a name="_ncugejx1a07e"></a>Technical Architecture
+## <a name="_ncugejx1a07e"></a>5. Technical Architecture
 ### <a name="_wzr03qrnkh5x"></a>**5.1 – Consensus Mechanism: Parlia (Proof of Staked Authority)**
 MST Blockchain leverages the Parlia consensus mechanism, a robust variant of Proof of Staked Authority (PoSA), purpose-built to ensure scalability, security, and decentralisation in high-performance blockchain environments.
 
@@ -220,7 +220,7 @@ To foster seamless adoption and interoperability, MST Blockchain is engineered t
 MST Blockchain achieves rapid transaction processing through a streamlined consensus protocol optimized for low latency and high throughput. With an average block time of approximately **3 seconds** and near-instant finality achieved in **just two block confirmations**, users benefit from swift, predictable transaction settlement. This architecture significantly improves the user experience and supports real-time application needs across sectors such as finance, gaming, and supply chain.
 
 
-1. ## <a name="_ur61g63mbedb"></a>Proof of Staked Authority (PoSA) 
+## <a name="_ur61g63mbedb"></a>6. Proof of Staked Authority (PoSA) 
 MST Blockchain employs the **Proof of Staked Authority (PoSA)** consensus mechanism — a hybrid approach that merges the **operational efficiency of Proof of Authority (PoA)** with the **democratic governance of Delegated Proof of Stake (DPoS)**.
 
 This design stems from an evolving need to overcome the limitations of other consensus models:
@@ -248,7 +248,7 @@ This hybrid model delivers:
 
 Through PoSA, MST Blockchain establishes a **scalable, decentralised, and eco-conscious consensus layer**, aligning with global demands for performance, transparency, and governance by community stakeholders.
 ## <a name="_s5htqayr4du"></a>
-1. ## <a name="_fat5mwtuqopy"></a>Validator Participation Framework
+## <a name="_fat5mwtuqopy"></a>7. Validator Participation Framework
 MST Blockchain introduces an inclusive Validator Participation Framework that empowers both individuals and organisations to actively contribute to network validation through two flexible modes: full validator operation and fractional validator participation.
 
 In contrast to traditional blockchain systems that demand high capital investment and technical expertise to become a validator, MST Blockchain allows everyday users to purchase fractional ownership in validator nodes. This innovative model enables individuals to participate in block validation and receive protocol incentives  without needing to manage node infrastructure or perform staking themselves. By simply owning a fraction of a validator node, users gain access to the benefits of validator participation while the technical and operational responsibilities remain with the node operators.
@@ -262,7 +262,7 @@ Simultaneously, MST fully supports independent full validators, where qualified 
 
 This dual-mode structure ensures inclusivity without compromising performance, allowing technical experts to operate full nodes while enabling broader public engagement through fractional participation. The result is a decentralised, scalable, and community-aligned network that distributes opportunity and governance more fairly across the ecosystem.
 ## <a name="_reit3nys2xwb"></a>
-1. ## <a name="_n6cwpjjdj0qx"></a>Validator Set
+## <a name="_n6cwpjjdj0qx"></a>8. Validator Set
 The **validator set** on the MST Blockchain consists of nodes responsible for validating transactions and proposing new blocks. Validators are selected based on the total amount of MST tokens staked, including both their self-stake and any delegated stake from other users. The validators with the highest total stake form the **active validator set**, which participates in block production on a rotating schedule.
 
 Validators who do not rank high enough are placed in a **standby set**, from which they can be promoted if their total stake increases or if active validators are removed due to inactivity or penalties.
@@ -273,7 +273,7 @@ The validator system is designed to be **inclusive and flexible**:
 - Validators can withdraw their stake at any time to opt out.
 - Validators are subject to **slashing** penalties for misconduct or prolonged inactivity, which protects the network’s reliability and fairness.
 ## <a name="_pgrn1h1pdmr9"></a>
-1. ## <a name="_z5epmiqwadp2"></a>Validator Election Mechanism
+## <a name="_z5epmiqwadp2"></a>9. Validator Election Mechanism
 MST Blockchain uses a **stake-based election mechanism** to determine validator roles. Every 24 hours, the network reviews the current staking distribution and updates the validator roles accordingly. Validators are categorised into three roles based on their rank in total staking:
 
 - **Cabinet Validators**: The top K (e.g., 21) validators with the highest stake. These validators are granted the highest probability of producing blocks and play a central role in maintaining the network.
@@ -286,7 +286,7 @@ This election cycle ensures **dynamic validator rotation**, enabling new partici
 
 
 ## <a name="_l318drwyzkhm"></a>
-1. ## <a name="_n5zsbioe19rh"></a>Tokenomics
+## <a name="_n5zsbioe19rh"></a>10. Tokenomics
 MSTC is the official native coin of the MST Blockchain, serving as the primary medium for transaction fees, validator rewards, governance rights, and network utility. In alignment with EVM-based blockchain architecture, a total supply of 50 billion MSTC was minted at the genesis block height, ensuring initial availability for ecosystem development and infrastructure incentives.
 
 However, to promote long-term monetary stability and reinforce scarcity, a major token burn event was conducted on December 31, 2024, permanently removing a large portion of MSTC from circulation. The **fractional validator model** allows every user to participate in validation and receive incentives creating a fair and community-driven token distribution system. Following this event, the net circulating supply was reduced to 8,401,387,498 MSTC. This deflationary issuance model aligns with Austrian School economic principles, particularly those advocated by Friedrich Hayek, who emphasised limited money supply as a stabiliser of purchasing power in free markets.
@@ -306,7 +306,7 @@ Unlike traditional tokenomics models, where large portions of tokens are pre-all
 This performance-based incentive mechanism enhances trust, transparency, and fairness across the ecosystem. Since the Foundation must actively participate in network operations to receive MSTC, it aligns its incentives with network health and growth. This structure eliminates central allocation risks, discourages passive accumulation, and ensures that rewards are received  through contribution, fostering a more credible and community-aligned blockchain economy.
 
 ## <a name="_4sjg34dcj5oa"></a>
-1. ## <a name="_bdnc4xjlyjjg"></a>Reward Distribution
+## <a name="_bdnc4xjlyjjg"></a>11. Reward Distribution
 In MST Blockchain, staking rewards are primarily derived from **block validation**, with **transaction fees** serving as a supplementary source. When a validator successfully validates a block, a predetermined block reward—defined by the network's reward structure—is issued. In addition, the validator collects the majority of transaction fees included in that block. 
 
 The MST Blockchain follows a structured, transparent, and inclusive reward mechanism:
@@ -316,7 +316,7 @@ For every validated block, the current block reward and accumulated transaction 
 MST Blockchain introduces an innovative periodic distribution of network participation incentives. At the end of each day, the network aggregates all rewards received  by each validator. Based on fractional ownership, each participant automatically receives their share of the protocol incentives. . This approach eliminates technical barriers for everyday users and ensures same-day reward disbursal, promoting transparency, liquidity, and broader decentralisation.
 
 MSTC functions as a utility token for accessing features within the MST ecosystem. It does not confer ownership rights, profit claims, or passive financial returns. Users are responsible for understanding local tax and regulatory treatment of any tokens received.
-1. ## <a name="_mm6uwt22zfd4"></a>Security and Finality
+## <a name="_mm6uwt22zfd4"></a>12. Security and Finality
 MST Blockchain, built on a PoSA (Proof of Staked Authority) model, ensures robust network security and finality through the following mechanisms:
 ### <a name="_6u9365ialvut"></a>**12.1 Validator Trust Assumption**
 1. As long as more than (N/2 + 1) validators are honest, the PoA-based consensus works securely.
@@ -517,3 +517,4 @@ Through the integration of purpose-built protocols such as WASMify for off-chain
 
 |<p><h2><a name="_k3kmi69kgpud"></a>**LEGAL DISCLAIMER**</h2></p><p>This document is for informational purposes only and does not constitute an offer to sell, a solicitation to buy, or a recommendation of any token, digital asset, or financial instrument. Nothing in this whitepaper constitutes legal, financial, business, or tax advice. You are responsible for your own due diligence and legal compliance.</p><p>MSTC is intended solely as a utility token for functional use within the MST Blockchain ecosystem. It is not offered or marketed as a financial product, security, or investment contract. Participation in staking, validation, or governance does not grant ownership rights, profit entitlements, or voting power in any legal entity, nor should it be construed as yielding returns or profits.</p><p>While MST Blockchain is designed with features that support principles of data privacy, security, and transparency, compliance with regulatory frameworks such as GDPR, HIPAA, India’s Digital Personal Data Protection Act (DPDPA), or other national laws rests with the parties operating services built on the protocol, including validators, developers, and application providers.</p><p>Any forward-looking statements in this whitepaper reflect current expectations and assumptions and are subject to risks and uncertainties. MST does not make any representation or warranty as to the legal status or future value of the MSTC token or its compatibility with future laws.</p><p>Engagement with the MST ecosystem may be subject to local laws, and users are advised to seek independent legal and tax counsel in their respective jurisdictions.</p>|
 | - |
+
