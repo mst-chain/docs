@@ -56,7 +56,6 @@
 - [**17. Conclusion**](#_2zotdq1eeymw)
 - [**LEGAL DISCLAIMER**](#_k3kmi69kgpud)
 
-## <a name="_fsfxx4d6zbn3"></a>
 ## <a name="_hniaob3nmrqd"></a>1. Abstract
 
 The rapid evolution of blockchain technology has initiated a paradigm shift in how data is managed and shared across various sectors. MST Blockchain, a Layer 1 blockchain platform, emerges as a transformative solution by enabling organisations to share information securely and directly without a central authority. MST Blockchain addresses critical challenges related to data privacy, security, and operational efficiency. 
@@ -133,13 +132,11 @@ This hybrid structure introduces two core layers of participation:
 - **Consensus Layer** – Validators secure the network, produce blocks, and maintain blockchain integrity.
 - **Governance Layer** – Token holders influence critical decisions (e.g., protocol upgrades, fee structures) through **delegated voting**, allowing MST to evolve through a decentralised and inclusive decision-making process.
 
-This dual-layer PoSA model not only increases **network responsiveness and operational efficiency** but also fosters **active community engagement**, ensuring MST Blockchain remains secure, decentralised, and adaptive to future innovation. \
-\
+This dual-layer PoSA model not only increases **network responsiveness and operational efficiency** but also fosters **active community engagement**, ensuring MST Blockchain remains secure, decentralised, and adaptive to future innovation. 
+
 MST Chain have been tested upto 2234 Transaction per second on its testnet and ensure 4000+ TPS on its mainnet while maintaining 3 second as its block time. 
 
-<a name="_kmtm1v1hwtwm"></a>\
-**5.2 – System Contract**
-----------------------------
+###<a name="_kmtm1v1hwtwm"></a>**5.2 – System Contract**
 Smart contracts serve as a foundational component of the MST Blockchain, enabling secure, autonomous, and tamper-proof execution of transactions and business logic. In addition to supporting an Internal decentralised mechanism, MST features a comprehensive suite of **built-in system contracts** that underpin its core operations—governance, staking, and protocol control.
 
 These include:
@@ -196,7 +193,8 @@ This hybrid model delivers:
 
 
 Through PoSA, MST Blockchain establishes a **scalable, decentralised, and eco-conscious consensus layer**, aligning with global demands for performance, transparency, and governance by community stakeholders.
-## <a name="_s5htqayr4du"></a>
+
+
 ## <a name="_fat5mwtuqopy"></a>7. Validator Participation Framework
 MST Blockchain introduces an inclusive Validator Participation Framework that empowers both individuals and organisations to actively contribute to network validation through two flexible modes: full validator operation and fractional validator participation.
 
@@ -210,7 +208,8 @@ Simultaneously, MST fully supports independent full validators, where qualified 
 - Participate in on-chain governance with complete authority
 
 This dual-mode structure ensures inclusivity without compromising performance, allowing technical experts to operate full nodes while enabling broader public engagement through fractional participation. The result is a decentralised, scalable, and community-aligned network that distributes opportunity and governance more fairly across the ecosystem.
-## <a name="_reit3nys2xwb"></a>
+
+
 ## <a name="_n6cwpjjdj0qx"></a>8. Validator Set
 The **validator set** on the MST Blockchain consists of nodes responsible for validating transactions and proposing new blocks. Validators are selected based on the total amount of MST tokens staked, including both their self-stake and any delegated stake from other users. The validators with the highest total stake form the **active validator set**, which participates in block production on a rotating schedule.
 
@@ -221,7 +220,8 @@ The validator system is designed to be **inclusive and flexible**:
 - New validators can enter the network through open participation.
 - Validators can withdraw their stake at any time to opt out.
 - Validators are subject to **slashing** penalties for misconduct or prolonged inactivity, which protects the network’s reliability and fairness.
-## <a name="_pgrn1h1pdmr9"></a>
+
+
 ## <a name="_z5epmiqwadp2"></a>9. Validator Election Mechanism
 MST Blockchain uses a **stake-based election mechanism** to determine validator roles. Every 24 hours, the network reviews the current staking distribution and updates the validator roles accordingly. Validators are categorised into three roles based on their rank in total staking:
 
@@ -232,9 +232,6 @@ MST Blockchain uses a **stake-based election mechanism** to determine validator 
 This election cycle ensures **dynamic validator rotation**, enabling new participants to enter the ecosystem and existing validators to remain competitive. It also enhances decentralisation by allowing voting rights and staking power to be **delegated**, ensuring that even non-technical users can support trustworthy validators and participate in network governance.
 
 
-
-
-## <a name="_l318drwyzkhm"></a>
 ## <a name="_n5zsbioe19rh"></a>10. Tokenomics
 MSTC is the official native coin of the MST Blockchain, serving as the primary medium for transaction fees, validator rewards, governance rights, and network utility. In alignment with EVM-based blockchain architecture, a total supply of 50 billion MSTC was minted at the genesis block height, ensuring initial availability for ecosystem development and infrastructure incentives.
 
@@ -254,7 +251,7 @@ Unlike traditional tokenomics models, where large portions of tokens are pre-all
 
 This performance-based incentive mechanism enhances trust, transparency, and fairness across the ecosystem. Since the Foundation must actively participate in network operations to receive MSTC, it aligns its incentives with network health and growth. This structure eliminates central allocation risks, discourages passive accumulation, and ensures that rewards are received  through contribution, fostering a more credible and community-aligned blockchain economy.
 
-## <a name="_4sjg34dcj5oa"></a>
+
 ## <a name="_bdnc4xjlyjjg"></a>11. Reward Distribution
 In MST Blockchain, staking rewards are primarily derived from **block validation**, with **transaction fees** serving as a supplementary source. When a validator successfully validates a block, a predetermined block reward—defined by the network's reward structure—is issued. In addition, the validator collects the majority of transaction fees included in that block. 
 
@@ -269,24 +266,25 @@ MSTC functions as a utility token for accessing features within the MST ecosyste
 MST Blockchain, built on a PoSA (Proof of Staked Authority) model, ensures robust network security and finality through the following mechanisms:
 ### <a name="_6u9365ialvut"></a>**12.1 Validator Trust Assumption**
 1. As long as more than (N/2 + 1) validators are honest, the PoA-based consensus works securely.
-1. For stronger security (similar to BC), users are advised to wait for blocks signed by at least (2/3 \* N + 1) different validators.
-1. This enhances tolerance for up to 1/3 \* N Byzantine (malicious) validators.
+2. For stronger security (similar to BC), users are advised to wait for blocks signed by at least (2/3 \* N + 1) different validators.
+3. This enhances tolerance for up to 1/3 \* N Byzantine (malicious) validators.
 ### <a name="_eut0hie7ovfm"></a>**12.2 Clone Attack Risk Mitigation**
 1. Although rare, attacks such as the “Clone Attack” can occur from Byzantine validators.
-1. The 2/3+1 signing requirement provides a safeguard against such vulnerabilities.
+2. The 2/3+1 signing requirement provides a safeguard against such vulnerabilities.
 ### <a name="_gb8xroy6d0om"></a>**12.3 Fast Finality Mechanism**
 MST Blockchain incorporates a fast finality protocol, similar to Ethereum’s Casper FFG, ensuring blocks—once finalized—are irreversible.\
 \
 ` `The process includes:
 
 1. **Block Proposal**: A validator proposes a block and shares it with other validators.
-1. **Voting**: Validators sign the block using their BLS (Boneh–Lynn–Shacham) private keys.
-1. **Vote Collection**: All validator votes are collected in a common pool.
-1. **Signature Aggregation**: Once the parent block has sufficient votes, signatures are aggregated during the next block proposal.
-1. **Attestation Embedding**: The aggregated attestation is embedded in the header of the new block.
-1. **Justification**: Nodes receiving the block can justify the parent block based on the attestation.
-1. **Finalization**: If two consecutive blocks are justified, the earlier one is considered finalized and cannot be reverted.
-## <a name="_9u61u2n6e04o"></a>
+2. **Voting**: Validators sign the block using their BLS (Boneh–Lynn–Shacham) private keys.
+3. **Vote Collection**: All validator votes are collected in a common pool.
+4. **Signature Aggregation**: Once the parent block has sufficient votes, signatures are aggregated during the next block proposal.
+5. **Attestation Embedding**: The aggregated attestation is embedded in the header of the new block.
+6. **Justification**: Nodes receiving the block can justify the parent block based on the attestation.
+7. **Finalization**: If two consecutive blocks are justified, the earlier one is considered finalized and cannot be reverted.
+
+
 ## <a name="_fjhqf32mnh4"></a>13. On-Chain Governance Framework
 MST Blockchain incorporates a native on-chain governance module inspired by the OpenZeppelin Governor model, designed to empower community participation while maintaining secure and transparent protocol upgrades.
 ### <a name="_sss94zs7kk7r"></a>**13.1 Key Features of MST Governance:**
@@ -299,11 +297,12 @@ Governance decisions on MST Blockchain follow a structured two-phase process:
 
 1. **Temperature Check (Sentiment Gauge):**\
    ` `A non-binding poll, often conducted off-chain via platforms like Snapshot, allows the community to evaluate and express initial support for a proposal. This step ensures that only well-supported ideas proceed further.
-1. **Final Decision Voting (On-Chain Vote):**\
+2. **Final Decision Voting (On-Chain Vote):**\
    ` `If the temperature check reaches the required support threshold, the proposal advances to an on-chain voting phase. Here, validators and staking participants cast their votes. The result of this binding vote determines whether the proposal is accepted and queued for execution via the time lock mechanism.
 
 MST enables on-chain community participation through voting mechanisms tied to token utility. These governance processes allow stakeholders to suggest and signal preferences for protocol-level improvements. The DAO structure implemented is a decentralized coordination layer and does not constitute a legal entity unless explicitly registered in a jurisdiction.
-## <a name="_aahx2cvn0vvr"></a>
+
+
 ## <a name="_ht6v617z5q7g"></a>14. Slashing and Penalties
 Slashing is an essential component of MST Blockchain’s on-chain governance framework, designed to maintain network integrity by penalising validators who engage in malicious behaviour or operational negligence. This mechanism ensures accountability by allowing any participant to submit evidence of validator misconduct. Upon successful validation, the evidence submitter is rewarded, while the offending validator faces penalties such as removal from the validator set and slashing of staked tokens.
 
@@ -409,6 +408,7 @@ These conceptual use cases demonstrate how MSTC tokens may be integrated by ecos
 
 *Use case deployment is the responsibility of individual developers and businesses. MST Blockchain provides infrastructure only and does not facilitate regulated activities unless explicitly licensed to do so in relevant jurisdictions.*
 
+
 ## <a name="_cuedto1a599t"></a>16. MST Ecosystem: Scaling Through Purposeful Innovation
 While MST Blockchain began as a powerful Layer 1 solution, its long-term vision extends far beyond serving as just another public chain. MST is fundamentally engineered to solve real-world industry problems—by building a comprehensive blockchain ecosystem that evolves with time, scales with adoption, and adapts to new challenges.
 ### <a name="_5eb94rm3hp6i"></a>**16.1 Why an Ecosystem Approach?**
@@ -434,13 +434,15 @@ The MST Ecosystem isn't just about chains—it's about enabling adoption through
 
 These components empower developers and enterprises to build on MST with ease, accelerating real-world integration.
 
-16\.4 Vision of the MST Ecosystem
+16.4 Vision of the MST Ecosystem
 
 The MST Ecosystem aims to create a **self-sustaining and industry-adaptive infrastructure** that doesn’t just keep up with blockchain trends—it sets new standards. MST’s long-term goal is to become:
 
 - A **foundational infrastructure layer** for businesses seeking privacy, traceability, and smart automation.
-- A **platform-neutral facilitator** that bridges traditional systems with decentralized operations.
-- A **community-led innovation hub** where DAO-governed upgrades, validator incentives, and toolkits all converge to support mass adoption.
+- B **platform-neutral facilitator** that bridges traditional systems with decentralized operations.
+- C **community-led innovation hub** where DAO-governed upgrades, validator incentives, and toolkits all converge to support mass adoption.
+
+
 ## <a name="_2zotdq1eeymw"></a>17. Conclusion
 MST Blockchain represents a next-generation layer-1 infrastructure that reimagines decentralization by prioritizing inclusivity, transparency, and trust at every layer of its design. Built on a hybrid Proof of Staked Authority (PoSA) consensus, MST achieves a strong balance between speed, security, and governance—ensuring the network remains both high-performing and resilient against malicious actors.
 
@@ -463,9 +465,9 @@ MST Chain is building a robust bridge across key industrial gaps by introducing 
 Through the integration of purpose-built protocols such as WASMify for off-chain processing with signature verification, MST enhances system efficiency by reducing on-chain load. Protocols like Klesthesia and Satvashuffle support industries like gaming, where audit processes tend to be resource-intensive. Additionally, document hashing and chain-based record management contribute to a more structured and verifiable document directory. MST continues to refine industry interactions through the practical application of decentralised technologies.
 
 
-
 |<p><h2><a name="_k3kmi69kgpud"></a>**LEGAL DISCLAIMER**</h2></p><p>This document is for informational purposes only and does not constitute an offer to sell, a solicitation to buy, or a recommendation of any token, digital asset, or financial instrument. Nothing in this whitepaper constitutes legal, financial, business, or tax advice. You are responsible for your own due diligence and legal compliance.</p><p>MSTC is intended solely as a utility token for functional use within the MST Blockchain ecosystem. It is not offered or marketed as a financial product, security, or investment contract. Participation in staking, validation, or governance does not grant ownership rights, profit entitlements, or voting power in any legal entity, nor should it be construed as yielding returns or profits.</p><p>While MST Blockchain is designed with features that support principles of data privacy, security, and transparency, compliance with regulatory frameworks such as GDPR, HIPAA, India’s Digital Personal Data Protection Act (DPDPA), or other national laws rests with the parties operating services built on the protocol, including validators, developers, and application providers.</p><p>Any forward-looking statements in this whitepaper reflect current expectations and assumptions and are subject to risks and uncertainties. MST does not make any representation or warranty as to the legal status or future value of the MSTC token or its compatibility with future laws.</p><p>Engagement with the MST ecosystem may be subject to local laws, and users are advised to seek independent legal and tax counsel in their respective jurisdictions.</p>|
 | - |
+
 
 
 
