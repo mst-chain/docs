@@ -136,7 +136,7 @@ This dual-layer PoSA model not only increases **network responsiveness and opera
 
 MST Chain have been tested upto 2234 Transaction per second on its testnet and ensure 4000+ TPS on its mainnet while maintaining 3 second as its block time. 
 
-###<a name="_kmtm1v1hwtwm"></a>**5.2 – System Contract**
+### <a name="_kmtm1v1hwtwm"></a>**5.2 – System Contract**
 Smart contracts serve as a foundational component of the MST Blockchain, enabling secure, autonomous, and tamper-proof execution of transactions and business logic. In addition to supporting an Internal decentralised mechanism, MST features a comprehensive suite of **built-in system contracts** that underpin its core operations—governance, staking, and protocol control.
 
 These include:
@@ -273,9 +273,8 @@ MST Blockchain, built on a PoSA (Proof of Staked Authority) model, ensures robus
 2. The 2/3+1 signing requirement provides a safeguard against such vulnerabilities.
 ### <a name="_gb8xroy6d0om"></a>**12.3 Fast Finality Mechanism**
 MST Blockchain incorporates a fast finality protocol, similar to Ethereum’s Casper FFG, ensuring blocks—once finalized—are irreversible.\
-\
-` `The process includes:
 
+The process includes: \
 1. **Block Proposal**: A validator proposes a block and shares it with other validators.
 2. **Voting**: Validators sign the block using their BLS (Boneh–Lynn–Shacham) private keys.
 3. **Vote Collection**: All validator votes are collected in a common pool.
@@ -296,9 +295,9 @@ MST Blockchain incorporates a native on-chain governance module inspired by the 
 Governance decisions on MST Blockchain follow a structured two-phase process:
 
 1. **Temperature Check (Sentiment Gauge):**\
-   ` `A non-binding poll, often conducted off-chain via platforms like Snapshot, allows the community to evaluate and express initial support for a proposal. This step ensures that only well-supported ideas proceed further.
+   A non-binding poll, often conducted off-chain via platforms like Snapshot, allows the community to evaluate and express initial support for a proposal. This step ensures that only well-supported ideas proceed further.
 2. **Final Decision Voting (On-Chain Vote):**\
-   ` `If the temperature check reaches the required support threshold, the proposal advances to an on-chain voting phase. Here, validators and staking participants cast their votes. The result of this binding vote determines whether the proposal is accepted and queued for execution via the time lock mechanism.
+   If the temperature check reaches the required support threshold, the proposal advances to an on-chain voting phase. Here, validators and staking participants cast their votes. The result of this binding vote determines whether the proposal is accepted and queued for execution via the time lock mechanism.
 
 MST enables on-chain community participation through voting mechanisms tied to token utility. These governance processes allow stakeholders to suggest and signal preferences for protocol-level improvements. The DAO structure implemented is a decentralized coordination layer and does not constitute a legal entity unless explicitly registered in a jurisdiction.
 
@@ -307,8 +306,7 @@ MST enables on-chain community participation through voting mechanisms tied to t
 Slashing is an essential component of MST Blockchain’s on-chain governance framework, designed to maintain network integrity by penalising validators who engage in malicious behaviour or operational negligence. This mechanism ensures accountability by allowing any participant to submit evidence of validator misconduct. Upon successful validation, the evidence submitter is rewarded, while the offending validator faces penalties such as removal from the validator set and slashing of staked tokens.
 
 There are three main categories of slashable offences on the MST Blockchain:
-<a name="_3ykl69wnp68t"></a>\
-**14.1 Double Signing**
+### <a name="_3ykl69wnp68t"></a>**14.1 Double Signing**
 ----------------------------
 Double signing occurs when a validator signs more than one block at the same height with the same parent block. This act is considered a severe breach, typically deliberate and malicious, as honest validator nodes have built-in mechanisms to prevent it.
 
@@ -467,6 +465,7 @@ Through the integration of purpose-built protocols such as WASMify for off-chain
 
 |<p><h2><a name="_k3kmi69kgpud"></a>**LEGAL DISCLAIMER**</h2></p><p>This document is for informational purposes only and does not constitute an offer to sell, a solicitation to buy, or a recommendation of any token, digital asset, or financial instrument. Nothing in this whitepaper constitutes legal, financial, business, or tax advice. You are responsible for your own due diligence and legal compliance.</p><p>MSTC is intended solely as a utility token for functional use within the MST Blockchain ecosystem. It is not offered or marketed as a financial product, security, or investment contract. Participation in staking, validation, or governance does not grant ownership rights, profit entitlements, or voting power in any legal entity, nor should it be construed as yielding returns or profits.</p><p>While MST Blockchain is designed with features that support principles of data privacy, security, and transparency, compliance with regulatory frameworks such as GDPR, HIPAA, India’s Digital Personal Data Protection Act (DPDPA), or other national laws rests with the parties operating services built on the protocol, including validators, developers, and application providers.</p><p>Any forward-looking statements in this whitepaper reflect current expectations and assumptions and are subject to risks and uncertainties. MST does not make any representation or warranty as to the legal status or future value of the MSTC token or its compatibility with future laws.</p><p>Engagement with the MST ecosystem may be subject to local laws, and users are advised to seek independent legal and tax counsel in their respective jurisdictions.</p>|
 | - |
+
 
 
 
